@@ -76,7 +76,7 @@ $ make captcha # create new data
 
 Preprocessing data
 ```
-make preprocessing
+$ make preprocessing
 ```
 
 Train model by run `Train.py`:
@@ -95,7 +95,7 @@ $ make recognition
 Show tensorboard:
 
 ```
-tensorboard --logdir ./logs
+$ tensorboard --logdir ./logs
 ```
 
 <!--
