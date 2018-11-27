@@ -4,8 +4,7 @@ clean:
 	rm -f *.pkl.gz
 	rm -f *.pyc
 
-captcha:
-	mkdir -p Data 
+captcha:	
 	php Captcha_Generator/Captcha-php/demo/demo.php
 
 preprocessing:
